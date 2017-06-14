@@ -2,4 +2,7 @@
     <string name="app_name">Guide</string>
     <string name="title">Hotel et Restaurant</string>
     <string name="image">Main image</string>
+    <string name="hotel_resto">hotel resto</string>
+    <string name="reserver">reserver\nun restaurant</string>
+    <string name="rhotel">reserver\nun hotel</string>
 </resources>

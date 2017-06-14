@@ -21,30 +21,47 @@
             android:layout_height="wrap_content"
             android:contentDescription="@string/image"
             android:src="@drawable/accueil1"
-             />
+            />
 
         <Button
             android:id="@+id/button"
+            style="@style/Bouttons"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@drawable/accueil2"
-            android:text="@android:string/VideoView_error_button" />
+            android:text="@string/hotel_resto"
+            android:textAlignment="viewStart"
+            android:layout_gravity="start"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:typeface="monospace" />
 
     </LinearLayout>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/hostel"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_gravity="start"
         android:background="@drawable/accueil3"
-        android:text="@android:string/VideoView_error_button" />
+        android:text="@string/reserver"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:typeface="monospace" />
 
     <Button
         android:id="@+id/button3"
+        style="@style/Bouttons"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/accueil4"
-        android:text="@android:string/VideoView_error_button" />
+        android:text="@string/rhotel"
+        android:textAlignment="viewStart"
+        android:layout_gravity="start"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:typeface="monospace"/>
 
 
 </LinearLayout>
